@@ -1,0 +1,232 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+header {
+    display: flex;
+    background-color: #202020;
+    height: 58px;
+    margin-bottom: 75px;
+    
+    position: sticky;
+    top: 0px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo h1 {
+    color: white;
+    margin-left: 20px;
+    margin-right: 40px;
+    font-size: 25px;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: normal;
+}
+.menu {
+    display: flex;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+nav a:hover {
+    color: #B22222;
+}
+
+section.produto {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+div.produto_img {
+    flex: 1;
+    display: flex;
+    height: 550px;
+    justify-content: center;
+}
+div.produto_descricao {
+    flex: 1;
+}
+div.produto_descricao_title h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: #333333;
+    margin-bottom: 30px;
+}
+span {
+    color: rgb(150, 0, 0);
+    font-size: 14px;
+}
+div.produto_descricao_desc {
+    margin-left: 35px;
+}
+div.produto_descricao_desc {
+    margin-bottom: 40px;
+}
+div.produto_descricao_desc li {
+    margin-bottom: 5px;
+    color: grey;
+}
+.valor {
+    padding-top: 20px;
+    display: flex;
+    border-top: 1px solid grey;
+    margin-right: 25px;
+}
+.RS {
+    display: flex;
+    font-size: 25px;
+    margin-right: 20px;
+    align-items: center;
+}
+.CA {
+    background-color: #434343;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+}
+.CA:hover {
+    background-color: #B22222;
+    color: blue;
+    transition-duration: .8s;
+}
+section.como_funciona {
+    background-color: #0F0F0F;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-bottom: 65px;
+}
+.como_funciona_title {
+    display: flex;
+    justify-content: center;
+    color: #B22222;
+    margin-top: 75px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+div.videos {
+    display: flex;
+    margin: 40px;
+    margin-top: 0px;
+}
+iframe {
+    margin: 10px;
+    height: 355px;
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+section.Detalhes_do_produto {
+    display: flex;
+    margin-bottom: 30px;
+}
+.Detalhes_do_produto_desc {
+    flex: 2;
+    margin-left: 45px;
+}
+.Detalhes_do_produto_title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: 17px;
+    color: #B22222;
+    font-weight: normal;
+}
+.Detalhes_do_produto_foto {
+    flex: 1;
+    background-image: url("imagens/liquidificador-mondial-l-1200-turbo-12-1200w-vermelho_3.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 380px;
+}
+.Detalhes_do_produto_foto:hover {
+    height: 400px;
+}
+.esp {
+    margin-bottom: 50px;
+    line-height: 21px;
+    color: grey;
+}
+strong {
+    color: #717171;
+}
+
+footer {
+    background-color: #202020;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    margin-bottom: 0px;
+}
+address {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formulario {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 400px;
+}
+.formulario input {
+    margin-bottom: 10px;
+    padding: 23px;
+    font-size: 15px;
+    background-color: #353535;
+    border: none;
+}
+input#enviar {
+    color: white;
+}
+input#enviar:hover {
+    color: #B22222;
+}
+.redes-socias {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.redes-socias a {
+    background-color: #717171;
+    margin: 4px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.endr {
+    text-align: center;
+    line-height: 22px;
+    color: #696969;
+    margin-bottom: 30px;
+}
+.copy {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    background-color: black;
+    color: #696969;
+    padding: 10px;
+    width: 98.5%;
+}
+.copy a {
+    text-decoration: none;
+    color: white;
+}
+.copy a:hover {
+    color: blue;
+}
