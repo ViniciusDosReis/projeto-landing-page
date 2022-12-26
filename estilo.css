@@ -222,6 +222,8 @@ input#enviar:hover {
     color: #696969;
     padding: 10px;
     width: 98.5%;
+    margin: 10px;
+    margin-bottom: 0px;
 }
 .copy a {
     text-decoration: none;
@@ -297,6 +299,11 @@ input#enviar:hover {
     @media screen and (max-width: 412px) {
         div.produto_img img {
             height: 316px;
+        }
+    }
+    @media screen and (max-width: 420px){
+        .formulario {
+            max-width: 300px;
         }
     }
 }
