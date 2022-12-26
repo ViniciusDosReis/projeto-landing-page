@@ -10,7 +10,7 @@
 header {
     display: flex;
     background-color: #202020;
-    height: 58px;
+    height: 64px;
     margin-bottom: 75px;
     
     position: sticky;
@@ -24,7 +24,7 @@ header {
     color: white;
     margin-left: 20px;
     margin-right: 40px;
-    font-size: 25px;
+    font-size: 28px;
     font-family: 'Kaushan Script', cursive;
     font-weight: normal;
 }
@@ -229,4 +229,74 @@ input#enviar:hover {
 }
 .copy a:hover {
     color: blue;
+}
+#menuMobile {
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-right: 20px; 
+    font-size: 40px;
+}
+
+@media screen and (max-width: 575px) {
+    nav ul {
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: #202020;
+    }
+    nav li {
+        padding-bottom: 29px;
+    }
+    nav a {
+        padding-left: 0px;
+        font-size: 18px;
+    }
+    section.produto {
+        flex-direction: column;
+    }
+    div.produto_img img {
+        height: 470px;
+    }
+    div.produto_descricao_desc {
+        margin-left: 70px;
+    }
+    span {
+        margin-left: 37px;
+    }
+    .valor {
+        margin-left: 35px;
+    }
+    div.videos {
+        flex-direction: column;
+    }
+    iframe {
+        width: 100%;
+    }
+    section.Detalhes_do_produto {
+        flex-direction: column;
+    }
+    .Detalhes_do_produto_desc {
+        margin-right: 30px;
+    }
+    .Detalhes_do_produto_foto {
+        flex: none;
+        background-position: center;
+    }
+    header {
+        height: auto;
+        justify-content: space-between;
+    }
+    #menuMobile {
+        display: flex;
+    }
+    @media screen and (max-width: 412px) {
+        div.produto_img img {
+            height: 316px;
+        }
+    }
 }
